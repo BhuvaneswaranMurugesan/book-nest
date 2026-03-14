@@ -76,6 +76,12 @@ Open `appsettings.json` and update the connection string:
 ### 3. Apply Migrations
 
 ```bash
+dotnet ef migrations "comments"
+```
+
+Note:Above is for dev
+
+```bash
 dotnet ef database update
 ```
 
